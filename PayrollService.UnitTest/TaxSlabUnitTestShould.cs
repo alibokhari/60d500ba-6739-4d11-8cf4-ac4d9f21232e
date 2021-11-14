@@ -46,7 +46,7 @@ namespace PayrollService.UnitTest
         {
             ITaxSlab taxSlab = new TaxSlab(startValue, endValue, tax, taxable);
 
-            var withInTaxSlabStatus = taxSlab.WithinTaxSlab(income);
+            var withInTaxSlabStatus = taxSlab.AboveTaxSlabStartValue(income);
 
             Assert.Equal(expectedWithInTaxSlabStatus, withInTaxSlabStatus);
         }

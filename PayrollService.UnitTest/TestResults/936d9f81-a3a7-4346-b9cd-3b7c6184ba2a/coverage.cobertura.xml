@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.5315" branch-rate="0.875" version="1.9" timestamp="1636899081" lines-covered="59" lines-valid="111" branches-covered="14" branches-valid="16">
+<coverage line-rate="0.5315" branch-rate="0.875" version="1.9" timestamp="1636901298" lines-covered="59" lines-valid="111" branches-covered="14" branches-valid="16">
   <sources>
     <source>D:\Trainings\Payroll\60d500ba-6739-4d11-8cf4-ac4d9f21232e\PayrollService\</source>
   </sources>
@@ -275,7 +275,7 @@
                 <line number="32" hits="5" branch="False" />
               </lines>
             </method>
-            <method name="WithinTaxSlab" signature="(System.Double)" line-rate="1" branch-rate="1">
+            <method name="AboveTaxSlabStartValue" signature="(System.Double)" line-rate="1" branch-rate="1">
               <lines>
                 <line number="35" hits="43" branch="False" />
                 <line number="36" hits="43" branch="False" />

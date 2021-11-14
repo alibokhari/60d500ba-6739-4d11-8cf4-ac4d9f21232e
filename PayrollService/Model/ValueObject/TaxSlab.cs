@@ -31,7 +31,7 @@
             return Taxable ? $"{Tax}c for each $1 over ${TaxableIncomeStartValue - 1:###,###}" : "$0";
         }
 
-        public bool WithinTaxSlab(double income)
+        public bool AboveTaxSlabStartValue(double income)
         {
             return income > TaxableIncomeStartValue;
         }

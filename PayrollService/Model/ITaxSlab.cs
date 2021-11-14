@@ -4,6 +4,6 @@
     {
         string GetDescription();
         double TaxOnIncome(double income);
-        bool WithinTaxSlab(double income);
+        bool AboveTaxSlabStartValue(double income);
     }
 }

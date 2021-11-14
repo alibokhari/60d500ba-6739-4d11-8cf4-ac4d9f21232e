@@ -26,7 +26,7 @@ namespace PayrollService.Model.ValueObject
             
             foreach (var taxSlab in taxSlabs)
             {
-                if (!taxSlab.WithinTaxSlab(AnnualSalary))
+                if (!taxSlab.AboveTaxSlabStartValue(AnnualSalary))
                     break;
                 monthlyIncomeTax += taxSlab.TaxOnIncome(AnnualSalary);
             }
